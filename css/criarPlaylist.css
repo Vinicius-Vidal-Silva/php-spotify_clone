@@ -1,0 +1,48 @@
+*{
+    @font-face {
+        font-family: 'Circular Spotify', Helvetica, sans-serif;
+        src: url('../font/CircularSpotifyText-Medium.otf');
+    }
+    color: white;
+    background-color: #101010;
+}
+nav{
+    font-family: 'Circular Spotify', Helvetica, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.25rem 0.25rem;
+    height: 10%;
+}
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style: none;
+    margin-right: 10rem;
+}
+nav > ul > li{
+    margin-left: 1.75rem;
+    text-align: start;
+}
+nav > ul > li:hover{
+    transform: scale(1.2);
+    color: #1ed760;
+}
+nav > ul > li > strong > a{
+    text-decoration: none;
+}
+nav > ul > li:hover > strong > a{
+    transform: scale(1.2);
+    color: #1ed760;
+}
+nav > img{
+    width: 13rem;
+    height: 8vh;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+h1{
+    font-family: 'Circular Spotify', Helvetica, sans-serif;
+    margin-top: 1.5rem;
+}

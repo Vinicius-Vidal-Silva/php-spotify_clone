@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel="stylesheet" href="../css/cadastrar.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><strong><a href="index.html">Home</a></strong></li>
+            <li><strong><a href="escolha.html">Consultar</a></strong></li>
+            <li><strong><a href="../html/atualizar.html">Atualizar</a></strong></li>
+            <li><strong><a href="excluir.html">Excluir</a></strong></li>
+        </ul>
+        <img src="../imgs/Spotify_Logo_RGB_Green.png" alt="Logo do Spotify">
+    </nav>
+    <h2>Cadastro de música</h2>
+    <p>Para realizar o cadastro preencha o formulário abaixo:</p>
+    <fieldset>
+        <form action="../php/cadastra.php" method="post">
+            <label for="musica">Nome da música </label><input type="text" name="musica" id="musica" placeholder="Nome música">
+            <label for="artista">Nome do artista </label><input type="text" name="artista" id="artista" placeholder="Nome artista">
+            <label for="ano_lanc">Ano de lançamento </label><input type="number" name="ano_lanc" id="ano_lanc" placeholder="Ano lançamento">
+            <label for="album">Nome do álbum </label><input type="text" name="album" id="album" placeholder="Nome álbum">
+            <label for="duracao">Duração </label><input type="text" name="duracao" id="duracao" placeholder="Duração">
+            <button type="submit"><strong>Cadastrar</strong></button>
+        </form>
+    </fieldset>
+</body>
+</html>

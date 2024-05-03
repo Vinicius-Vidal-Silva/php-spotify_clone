@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atualizar</title>
+    <link rel="stylesheet" href="../css/cadastrar.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><strong><a href="index.html">Home</a></strong></li>
+            <li><strong><a href="escolha.html">Consultar</a></strong></li>
+            <li><strong><a href="cadastrar.html">Cadastrar</a></strong></li>
+            <li><strong><a href="excluir.html">Excluir</a></strong></li>
+        </ul>
+        <img src="../imgs/Spotify_Logo_RGB_Green.png" alt="Logo do Spotify">
+    </nav>
+    <h2>Atualizar música</h2>
+    <p>Para realizar a atualização da música preencha o formulário abaixo:</p>
+    <form action="../php/pesquisaUP.php" method="post">
+        <label for="pesquisa">Nome da música</label><input type="text" name="pesquisa" id="nome" placeholder="Noma da música">
+        <button type="submit"><strong>Pesquisar</strong></button>
+    </form>
+</body>
+</html>

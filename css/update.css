@@ -1,0 +1,130 @@
+*{
+    @font-face {
+        font-family: 'Circular Spotify', Helvetica, sans-serif;
+        src: url('../font/CircularSpotifyText-Medium.otf');
+    }
+    color: white;
+    background-color: #101010;
+}
+nav{
+    font-family: 'Circular Spotify', Helvetica, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.25rem 0.25rem;
+    height: 10%;
+}
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style: none;
+    margin-right: 10rem;
+}
+nav > ul > li{
+    margin-left: 1.75rem;
+    text-align: start;
+}
+nav > ul > li:hover{
+    transform: scale(1.2);
+    color: #1ed760;
+}
+nav > ul > li > strong > a{
+    text-decoration: none;
+}
+nav > ul > li:hover > strong > a{
+    transform: scale(1.2);
+    color: #1ed760;
+}
+nav > img{
+    width: 13rem;
+    height: 8vh;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+h2{
+    font-family: 'Circular Spotify', Helvetica, sans-serif;
+    margin-left: 1rem;
+    text-decoration: underline #1ed760;
+}
+p{
+    font-family: 'Circular Spotify', Helvetica, sans-serif;
+    margin-left: 1rem;
+}
+form{
+    font-family: 'Circular Spotify', Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 1rem 2rem 1rem;
+    
+}
+form > label{
+    padding-top: 0.4rem;
+    font-family: 'Circular Spotify', Helvetica, sans-serif;
+    justify-self: auto;
+}
+form > input{
+    width: 75%;
+    height: 55%;
+    margin-bottom: 2rem;
+    border: 1.5px solid #1ed760 ;
+    justify-self: auto;
+}
+form > button{
+    width: 25%;
+    height: 80%;
+    border-radius: 0.25rem;
+    justify-self: auto;
+    margin-top: 1rem;
+    border: 2px solid #1ed760;
+}
+form > button:hover{
+    color: #222222;
+    background-color: #1ed760;
+}
+button:hover > strong{
+    color: #101010;
+    background-color: #1ed760;
+}
+fieldset{
+    border-radius: 0.25rem;
+    border: 1px solid #1ed760;
+}
+.askNew{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-family: 'Circular Spotify', Helvetica, sans-serif;
+}
+
+.askNewButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.nao{
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    background-color:red;
+    color: white;
+    font-family: 'Circular Spotify', Helvetica, sans-serif;
+    margin-left: 1rem;
+}
+.sim{
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    font-family: 'Circular Spotify', Helvetica, sans-serif;
+    margin-right: 1rem;
+}
+.sim:hover{
+    background-color: #1ed760;
+    color: #101010;
+}
